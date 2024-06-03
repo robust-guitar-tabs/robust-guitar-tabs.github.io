@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Leveraging Electric Guitar Tones and Effects to Improve Robustness in Guitar Tablature Transcription Modeling</title>
+  <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2XnufH8VPEZhTQ49nvjnfCPRqUGZ3ewr62g&s">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Leveraging Electric Guitar Tones and Effects to Improve Robustness in Guitar Tablature Transcription Modeling</h1>
+                  <div class="author-block">
+                    <a href="mailto:hepv12@gmail.com" target="_blank">Hegel Pedroza</a><sup>1</sup>,
+                  </div>
+                  <div class="author-block">
+                    <a href="mailto:wallace.abreu@smt.ufrj.br" target="_blank">Wallace Abreu</a><sup>2</sup>,
+                  </div>
+                  <div class="author-block">
+                    <a href="mailto:corey1@uillinois.edu" target="_blank">Ryan M. Corey</a><sup>3</sup>,
+                  </div>
+                  <div class="author-block">
+                    <a href="mailto:iran@ccrma.stanford.edu" target="_blank">Iran. R. Roman</a><sup>4</sup>
+                  </div>
+                  
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block" style="font-size: smaller;">
+                      1. National Autonomous University of Mexico<br>
+                      2. Federal University of Rio de Janeiro<br>
+                      3. Discovery Partners Institute & University of Illinois Chicago<br>
+                      4. New York University
+                    </span>
+<!--                     <br>International Conference on Digital Audio Effects (DAFx), 2024 -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2405.14679" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://zenodo.org/records/11406378" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img src="static\images\zenodo-icon-white.ico" alt="Zenodo" style="width: 1em; height: 1em;">
+                      </span>
+                      <span>Zenodo</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/robust-guitar-tabs/code" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+<!--                 <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">In construction</h2>
+        <div class="content has-text-justified">
+          <p>
+            Under review for DAFx 2024; come back soon for more news.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<!-- End paper abstract
+
+<-- Paper abstract -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Guitar tablature transcription (GTT) aims at automatically generating symbolic representations from real solo guitar performances. 
+Due to its applications in education and musicology, GTT has gained traction in recent years.
+However, GTT robustness has been limited due to the small size of available datasets.
+Researchers have recently used synthetic data that simulates guitar performances using pre-recorded or computer-generated tones and can be automatically generated at large scales.
+The present study complements these efforts by demonstrating that GTT robustness can be improved by including synthetic training data created using recordings of real guitar tones played with different audio effects. 
+We evaluate our approach on a new evaluation dataset with professional solo guitar performances that we composed and collected, featuring a wide array of tones, chords, and scales. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero is-light">
+  <div class="container my-4">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Training Data</h2>
+      <div class="content has-text-justified">
+      </div>
+    </div>
+  </div>
+
+  <!-- Training data info -->
+
+  <p>Our synthetic guitar solo performances, melodies and chords consist of notes played 
+    with varied guitar tones and audio effects, maximizing tone diversity. We achieve this by 
+    randomly selecting tones from a vast bank of examples when generating an audio track. 
+    This strategy aligns with our hypothesis that such diversity will enhance the model’s robustness. 
+    It allows the model to concentrate on pitch content and guitar string+fret inference, while disregarding specific timbre qualities.
+    Hear a comparison of GuitarSet to GuitarSetFx and GuitarProFX below and see the CQT spectrogram of their early seconds!</p>
+  <br><br>
+  </br></br>
+
+  <div class="audio-container">
+    <div class="audio-item">
+      <p>GuitarSet Track</p>
+      <div  class="container d-flex justify-content-center align-items-center">
+        <img src="static\images\GuitarSet_00_BN1-129-Eb_comp.jams.png" alt="Tabs results" class="img-fluid">
+      </div>
+      <audio controls>
+        <source src="static\audios\00_BN1-129-Eb_comp_mic_GuitarSet.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <p>GuitarSetFx track</p>
+      <div  class="container d-flex justify-content-center align-items-center">
+        <img src="static\images\MyGuitarSetFx_00_BN1-129-Eb_comp.jams.png" alt="Tabs results" class="img-fluid">
+      </div>
+      <audio controls>
+        <source src="static\audios\00_BN1-129-Eb_comp_MyGuitarSet.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <p>GuitarProFx Track</p>
+      <div  class="container d-flex justify-content-center align-items-center">
+        <img src="static\images\Test6_00_1_mic.jams.png" alt="Tabs results" class="img-fluid">
+      </div>
+      <audio controls>
+        <source src="static\audios\00_1_mic.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Training data info -->
+
+
+
+<!-- End teaser video -->
+<section class="section hero is-info">
+  <div class="container my-4">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">EGSet12</h2>
+      <div class="content has-text-justified">
+      </div>
+    </div>
+  </div>
+
+  <p>EGSet12 is a new evaluation set with
+    twelve original solo electric guitar performances (31.65 seconds
+    avg. duration, totaling 379.8 seconds). These pieces were composed by a professional musician and guitar player for this project,
+    showcasing the full tonal range of the electric guitar across diverse
+    melodies and chord complexities. EGSet12 encompasses a broad
+    spectrum of styles, including pop, funk, jazz and twelve-tone, reflecting varied tonalities, keys, rhythms, and modes. Hear some samples below!</p>
+  <br><br>
+  </br></br>
+
+  <div class="audio-container">
+    <div class="audio-item">
+      <p>Track 02</p>
+      <audio controls>
+        <source src="static\audios\00_02.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <p>Track 06</p>
+      <audio controls>
+        <source src="static\audios\02_06.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="audio-item">
+      <p>Track 09</p>
+      <audio controls>
+        <source src="static\audios\04_09.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section hero">
+  <div class="container my-4">
+    <div class="columns is-centered has-text-centered">
+      <h2 class="title is-3">Results</h2>
+    </div>
+  </br></br>
+    <p class="columns is-centered has-text-centered">The following results show increased model robustness on multi-pitch and tablature prediction
+      metrics via our proposed method.</p>
+    </br></br>
+    <table class="table table-bordered table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th></th>
+          <th colspan="3" class="text-center">Multi-pitch estimation</th>
+          <th></th> <!-- This empty header shifts the Tablature estimation title to the right -->
+          <th colspan="4" class="text-center">Tablature estimation</th>
+        </tr> 
+        <tr>
+          <th></th>
+          <th class="text-center">F<sub>1</sub></th>
+          <th class="text-center">P</th>
+          <th class="text-center">R</th>
+          <th></th> <!-- This empty header aligns with the previous row -->
+          <th class="text-center">F<sub>1</sub></th>
+          <th class="text-center">P</th>
+          <th class="text-center">R</th>
+          <th class="text-center">TDR</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TabCNN<sup><a href="#wiggins2019guitar">[1]</a></sup></td>
+          <td class="text-center">0.638&plusmn;0.060</td>
+          <td class="text-center">0.819&plusmn;0.080</td>
+          <td class="text-center">0.530&plusmn;0.067</td>
+          <td></td>
+          <td class="text-center">0.447&plusmn;0.071</td>
+          <td class="text-center">0.565&plusmn;0.089</td>
+          <td class="text-center">0.375&plusmn;0.067</td>
+          <td class="text-center">0.695&plusmn;0.075</td>
+        </tr>
+        <tr>
+          <td>+ GuitarSetFX</td>
+          <td class="text-center"><strong>0.740&plusmn;0.055</strong></td>
+          <td class="text-center">0.835&plusmn;0.085</td>
+          <td class="text-center"><strong>0.679&plusmn;0.052</strong></td>
+          <td></td>
+          <td class="text-center">0.557&plusmn;0.088</td>
+          <td class="text-center">0.619&plusmn;0.100</td>
+          <td class="text-center">0.518&plusmn;0.084</td>
+          <td class="text-center">0.755&plusmn;0.106</td>
+        </tr>
+        <tr>
+          <td>+ GuitarProFX</td>
+          <td class="text-center">0.719&plusmn;0.061</td>
+          <td class="text-center"><strong>0.839&plusmn;0.082</strong></td>
+          <td class="text-center">0.647&plusmn;0.068</td>
+          <td></td>
+          <td class="text-center"><strong>0.585&plusmn;0.084</strong></td>
+          <td class="text-center"><strong>0.658&plusmn;0.073</strong></td>
+          <td class="text-center"><strong>0.541&plusmn;0.087</strong></td>
+          <td class="text-center"><strong>0.819&plusmn;0.075</strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Table 1:</strong> TabCNN performance on EGSet12. Each cell is metric averaged across the twelve tracks (&plusmn; denotes standard deviation). Top row: performance as trained by Wiggins & Kim. Bottom rows: performance when training data includes simulated tracks.</p>
+  </div>
+  </br></br>
+  <div class="columns is-centered has-text-centered">  
+    <div  class="container d-flex justify-content-center align-items-center">
+      <img src="static\images\results.svg" alt="Tabs results" class="img-fluid">
+      <p><strong>Figure 1:</strong> Each column is a two-second EGSet12 excerpt, comparing predictions made by models trained using GuitarSet, with and without GuitarProFX, against ground truth. Each circle is a tracked note on the guitar fretboard over time and vertical lines indicate musical beats.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="my-4">
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <br><br>
+    <div class="hero-body">
+      <h2 class="subtitle has-text-centered">
+        In the video we illustrate the performance of TabCNN trained with GuitarSet versus our method, using GuitarSet + GuitarProFx, when evaluated on EGSet12.
+      </h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static\videos\tabs.mp4"
+        type="video/mp4">
+      </video>
+
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+<!--   <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+<!-- Temporary structure -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
