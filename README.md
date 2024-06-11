@@ -1,6 +1,6 @@
 # README
 
-Acompanying website for 'Leveraging Electric Guitar Tones and Effects to Improve Robustness in Guitar Tablature Transcription Modeling' paper submitted to DAFx 2024 Late Breaking Results.
+Acompanying website for 'Leveraging Electric Guitar Tones and Effects to Improve Robustness in Guitar Tablature Transcription Modeling' paper accepted to DAFx 2024 Late Breaking Results.
 
 In construction.
 
